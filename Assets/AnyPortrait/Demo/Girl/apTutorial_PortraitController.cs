@@ -57,6 +57,9 @@ namespace AnyPortrait
 		private Vector2 lastEyeParam = Vector2.zero;
 		private Vector2 lastHeadParam = Vector2.zero;
 
+		// for eyetracking (Seeso)
+		SeesoCombine Eyesight;
+
 
 		// Init / Update
 		//------------------------------------------------------------------
@@ -73,6 +76,8 @@ namespace AnyPortrait
 			isEyeReturn = false;
 
 			Cursor.visible = false;
+
+			Eyesight = GetComponent<SeesoCombine>();
 		}
 
 		void Update()
@@ -85,7 +90,9 @@ namespace AnyPortrait
 			if (Input.GetMouseButton(0))
 			{
 				isTouched = true;
-				touchPosScreen = Input.mousePosition;
+				// touchPosScreen = Input.mousePosition;
+				touchPosScreen.x = Eyesight.gazeX;
+				touchPosScreen.y = Eyesight.gazeY;
 			}
 			else if (Input.touchCount == 1)
 			{
@@ -95,7 +102,9 @@ namespace AnyPortrait
 					touchPhase == TouchPhase.Stationary)
 				{
 					isTouched = true;
-					touchPosScreen = Input.GetTouch(0).position;
+					// touchPosScreen = Input.GetTouch(0).position;
+					touchPosScreen.x = Eyesight.gazeX;
+					touchPosScreen.y = Eyesight.gazeY;
 				}
 			}
 
@@ -206,20 +215,12 @@ namespace AnyPortrait
 					touchParticle.Stop();
 				}
 
-				if (Input.mousePresent)
-				{
+				// for eye position
+				Vector2 EyePosW = targetCamera.ScreenToWorldPoint(new Vector3(Eyesight.gazeX, Eyesight.gazeY, portrait.transform.position.z));
 
-					Vector2 mousePosW = targetCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, portrait.transform.position.z));
-
-					handGroup.position = new Vector3(mousePosW.x, mousePosW.y, handGroup.position.z);
-					handMesh_Released.enabled = true;
-					handMesh_Pressed.enabled = false;
-				}
-				else
-				{
-					handMesh_Released.enabled = false;
-					handMesh_Pressed.enabled = false;
-				}
+				handGroup.position = new Vector3(EyePosW.x, EyePosW.y, handGroup.position.z);
+				handMesh_Released.enabled = true;
+				handMesh_Pressed.enabled = false;
 
 				if (isEyeReturn)
 				{

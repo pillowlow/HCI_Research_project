@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/AnyPortrait/Demo/AP Tutorial Scene 2 PeacockTheAria.unity
     guid: 76b8ba6060a1304479cacb21509ed79a
+  - enabled: 1
+    path: Assets/AnyPortrait/Demo/AP Tutorial Scene 3 Portrait.unity
+    guid: cbaeea7f75f768a48a0ea9c1086b8d7a
+  - enabled: 0
+    path: Assets/SeeSo/Example/SeeSoExample.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
