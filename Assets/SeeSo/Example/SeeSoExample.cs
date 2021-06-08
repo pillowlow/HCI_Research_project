@@ -23,7 +23,7 @@ public class SeeSoExample : MonoBehaviour
     public GameObject StopTracking;
     public GameObject StartCalibration;
     public GameObject StopCalibration;
-
+    public GameObject asshole;
     bool useFilteredGaze = true;
     GazeFilter gazeFilter = new GazeFilter();
 
