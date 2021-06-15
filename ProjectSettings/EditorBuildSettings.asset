@@ -5,28 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/AnyPortrait/Demo/AP Tutorial Scene 2 PeacockTheAria.unity
-    guid: 76b8ba6060a1304479cacb21509ed79a
-  - enabled: 0
-    path: Assets/SeeSo/Example/SeeSoExample.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/MAIN.unity
-    guid: 6d3550d9778d5e84491052d7817ddb9a
-  - enabled: 1
-    path: Assets/Scenes/About.unity
-    guid: 9b6b6d823dac2c148839939623fd002f
-  - enabled: 1
-    path: Assets/Scenes/Market.unity
-    guid: 9190dd3590c19c248a691ae390b4e216
+    guid: e48ac9b06d8004e4f9cf7bb864f2eee6
   - enabled: 1
     path: Assets/Scenes/Instruction.unity
     guid: 7a2e8d3a92fe3e0448b718ba17926c28
   - enabled: 1
-    path: Assets/Scenes/Product detail_tako.unity
-    guid: 9baf43dc4cbc28741856e5cfd588d123
+    path: Assets/Scenes/About.unity
+    guid: 9b6b6d823dac2c148839939623fd002f
   - enabled: 1
     path: Assets/Scenes/Brought_Normal.unity
     guid: 41936deb3311bb940907766eb4cdc6f1
+  - enabled: 1
+    path: Assets/Scenes/detail_tako.unity
+    guid: fa236d46606a75143b35fe600ed53c04
+  - enabled: 1
+    path: Assets/Scenes/Market.unity
+    guid: 3b87c1edb25c52b4fa22d8c2fb25e80f
+  - enabled: 1
+    path: Assets/Scenes/detail_shark.unity
+    guid: f8864f09da151ba4f9ef1c13c5313339
+  - enabled: 1
+    path: Assets/Scenes/Bought_Shark.unity
+    guid: 6a9d3220cb800c7449e26735e2ca358a
   m_configObjects: {}
