@@ -24,7 +24,7 @@ public class Pop_fav : MonoBehaviour
     {
         
     }
-    public void Init(Transform canvas, string text_1, string text_2, string text_message,Action action)
+    public void Init2(Transform canvas, string text_1, string text_2, string text_message,Action action)
     {
         _buttext_1.text = text_1;
 
@@ -34,12 +34,12 @@ public class Pop_fav : MonoBehaviour
 
 
         _button_1.onClick.AddListener(() =>
-        {//確定
+        {//取消
             GameObject.Destroy(this.gameObject);
         });
 
         _button_2.onClick.AddListener(() =>
-        {//取消最愛
+        {//最愛
             action();
             GameObject.Destroy(this.gameObject);
         });

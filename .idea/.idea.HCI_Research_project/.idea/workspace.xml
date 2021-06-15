@@ -39,10 +39,7 @@
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/Files_From_C/文件/_Data_/Work/RiderProjects/HCI_Research_project/Assets/AnyPortrait/Demo/AP Tutorial Scene 3 Portrait.unity.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Files_From_C/文件/_Data_/Work/RiderProjects/HCI_Research_project/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Files_From_C/文件/_Data_/Work/RiderProjects/HCI_Research_project/Assets/AnyPortrait/Demo/AP Tutorial Scene 3 Portrait.unity.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Files_From_C/文件/_Data_/Work/RiderProjects/HCI_Research_project/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Files_From_C/文件/_Data_/Work/RiderProjects/HCI_Research_project/Assets/Scenes/About.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1tAsjuttEndnJqlVGjGoaVObZXG" />
   <component name="ProjectViewState">
@@ -90,6 +87,7 @@
       <workItem from="1623713578824" duration="2192000" />
       <workItem from="1623729396575" duration="201000" />
       <workItem from="1623731126984" duration="233000" />
+      <workItem from="1623760280765" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="Basic UI">
       <created>1623164155775</created>
@@ -119,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623731281854</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="UI FIXED SIZE">
+      <created>1623760312228</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623760312228</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +150,8 @@
     <MESSAGE value="70% of UI &#10;Function of popout and change scene" />
     <MESSAGE value="90% UI +L2D MIXED" />
     <MESSAGE value="90% UI +L2D MIXED _" />
-    <option name="LAST_COMMIT_MESSAGE" value="90% UI +L2D MIXED _" />
+    <MESSAGE value="UI FIXED SIZE" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI FIXED SIZE" />
   </component>
   <component name="WindowStateProjectService">
     <state x="147" y="66" key="MergeDialog" timestamp="1623713862706">
@@ -156,10 +162,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="406" y="178" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1623713869596" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1623731297268">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1623760323486">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1623731297268" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1623760323486" />
     <state x="581" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623713887289">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
