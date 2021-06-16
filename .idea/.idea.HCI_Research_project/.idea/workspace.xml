@@ -21,6 +21,7 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/Ryoya" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -37,6 +38,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Files_From_C/文件/_Data_/Work/RiderProjects/HCI_Research_project/Assets/Scenes/detail_tako.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1tAsjuttEndnJqlVGjGoaVObZXG" />
   <component name="ProjectViewState">
@@ -87,6 +91,7 @@
       <workItem from="1623760280765" duration="57000" />
       <workItem from="1623777223219" duration="166000" />
       <workItem from="1623811503482" duration="64000" />
+      <workItem from="1623814312999" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="Basic UI">
       <created>1623164155775</created>
@@ -137,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623811548254</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="All UI 100% task1~3 finished">
+      <created>1623814441715</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623814441715</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +178,8 @@
     <MESSAGE value="UI FIXED SIZE" />
     <MESSAGE value="TASK 1 TASK 2 FINISHED &#10;UI SIZE SOLVED" />
     <MESSAGE value="3RD FIXED SCREEN &#10;BEST:1920*1080 PORTRAIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="3RD FIXED SCREEN &#10;BEST:1920*1080 PORTRAIT" />
+    <MESSAGE value="All UI 100% task1~3 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="All UI 100% task1~3 finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="147" y="66" key="MergeDialog" timestamp="1623713862706">
@@ -177,10 +190,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="406" y="178" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1623713869596" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1623811557593">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1623814544337">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1623811557593" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1623814544337" />
     <state x="581" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623713887289">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

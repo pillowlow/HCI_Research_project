@@ -522,17 +522,22 @@
             <e p="PopUp.cs" t="Include" />
             <e p="TO" t="Include">
               <e p="ToAbout.cs" t="Include" />
+              <e p="Toask.cs" t="Include" />
+              <e p="Tobargain.cs" t="Include" />
+              <e p="Tobought_CheapTako.cs" t="Include" />
               <e p="Tobought_Shark.cs" t="Include" />
               <e p="Tobrought_nor.cs" t="Include" />
               <e p="ToFavorite.cs" t="Include" />
               <e p="ToHello.cs" t="Include" />
               <e p="ToInstruct.cs" t="Include" />
+              <e p="Tolose.cs" t="Include" />
               <e p="ToMain.cs" t="Include" />
               <e p="ToMarket.cs" t="Include" />
               <e p="ToMarket1.cs" t="Include" />
               <e p="ToShark.cs" t="Include" />
               <e p="ToTako.cs" t="Include" />
               <e p="ToTalk.cs" t="Include" />
+              <e p="Towin.cs" t="Include" />
             </e>
             <e p="UIController.cs" t="Include" />
             <e p="UIController2.cs" t="Include" />
