@@ -21,7 +21,7 @@ public class ToHello : MonoBehaviour
             popup.Init0(UIController3.Instance.MainCanvas,
                 "continue",
                 "return",
-                "Hi There ~ How I help You?"
+                "Hi There ~ How can I help You ? "
                 );
         });
     }

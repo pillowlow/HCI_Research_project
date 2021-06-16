@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f815051b-36b1-4b03-b685-3deaf5f2ef0b" name="Default Changelist" comment="90% UI +L2D MIXED _" />
+    <list default="true" id="f815051b-36b1-4b03-b685-3deaf5f2ef0b" name="Default Changelist" comment="TASK 1 TASK 2 FINISHED &#10;UI SIZE SOLVED" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,9 +37,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/Files_From_C/文件/_Data_/Work/RiderProjects/HCI_Research_project/Assets/Scenes/About.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1tAsjuttEndnJqlVGjGoaVObZXG" />
   <component name="ProjectViewState">
@@ -88,6 +85,7 @@
       <workItem from="1623729396575" duration="201000" />
       <workItem from="1623731126984" duration="233000" />
       <workItem from="1623760280765" duration="57000" />
+      <workItem from="1623777223219" duration="166000" />
     </task>
     <task id="LOCAL-00001" summary="Basic UI">
       <created>1623164155775</created>
@@ -124,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623760312228</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="TASK 1 TASK 2 FINISHED &#10;UI SIZE SOLVED">
+      <created>1623777308879</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623777308880</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +156,8 @@
     <MESSAGE value="90% UI +L2D MIXED" />
     <MESSAGE value="90% UI +L2D MIXED _" />
     <MESSAGE value="UI FIXED SIZE" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI FIXED SIZE" />
+    <MESSAGE value="TASK 1 TASK 2 FINISHED &#10;UI SIZE SOLVED" />
+    <option name="LAST_COMMIT_MESSAGE" value="TASK 1 TASK 2 FINISHED &#10;UI SIZE SOLVED" />
   </component>
   <component name="WindowStateProjectService">
     <state x="147" y="66" key="MergeDialog" timestamp="1623713862706">
@@ -162,10 +168,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="406" y="178" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1623713869596" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1623760323486">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1623777331324">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1623760323486" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1623777331324" />
     <state x="581" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623713887289">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

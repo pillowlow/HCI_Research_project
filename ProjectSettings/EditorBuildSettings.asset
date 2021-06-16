@@ -12,27 +12,27 @@ EditorBuildSettings:
     path: Assets/Scenes/MAIN.unity
     guid: a14aec113106c4541aedbf688adef357
   - enabled: 1
+    path: Assets/Scenes/Market1.unity
+    guid: 70c1d6976ae80374ba4dd06243d991cf
+  - enabled: 1
     path: Assets/Scenes/Market.unity
     guid: 638cd2b55b556c448b3e8f4d15b55508
   - enabled: 1
     path: Assets/Scenes/Instruction.unity
     guid: 7a2e8d3a92fe3e0448b718ba17926c28
   - enabled: 1
-    path: Assets/Scenes/detail_tako.unity
-    guid: fa236d46606a75143b35fe600ed53c04
+    path: Assets/Scenes/Brought_Normal.unity
+    guid: 41936deb3311bb940907766eb4cdc6f1
   - enabled: 1
     path: Assets/Scenes/detail_shark.unity
     guid: f8864f09da151ba4f9ef1c13c5313339
   - enabled: 1
-    path: Assets/Scenes/Brought_Normal.unity
-    guid: 41936deb3311bb940907766eb4cdc6f1
-  - enabled: 1
-    path: Assets/Scenes/Bought_Shark.unity
-    guid: 6a9d3220cb800c7449e26735e2ca358a
+    path: Assets/Scenes/detail_tako.unity
+    guid: fa236d46606a75143b35fe600ed53c04
   - enabled: 1
     path: Assets/Scenes/About.unity
     guid: 9b6b6d823dac2c148839939623fd002f
   - enabled: 1
-    path: Assets/Scenes/Market1.unity
-    guid: 70c1d6976ae80374ba4dd06243d991cf
+    path: Assets/Scenes/Bought_Shark.unity
+    guid: 6a9d3220cb800c7449e26735e2ca358a
   m_configObjects: {}
