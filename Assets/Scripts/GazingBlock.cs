@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GazingBlock : MonoBehaviour
 {
     public static GameObject GazeHand;
     public static int GazeInterval;
     public static float GazeStandard;
+    public GameObject TextShow;
     Collider2D ObjectCollider;
     bool[] IsGazing = new bool[GazeInterval];
     int IndexNow = 0;
@@ -19,6 +21,7 @@ public class GazingBlock : MonoBehaviour
         {
             IsGazing[i] = false;
         }
+        TextShow.GetComponent<Text>().text = "No";
     }
 
     // Update is called once per frame
@@ -47,6 +50,6 @@ public class GazingBlock : MonoBehaviour
 
     void OnGazeSuccess()
     {
-
+        TextShow.GetComponent<Text>().text = "Succ";
     }
 }
