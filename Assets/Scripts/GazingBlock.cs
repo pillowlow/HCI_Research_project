@@ -51,5 +51,6 @@ public class GazingBlock : MonoBehaviour
     void OnGazeSuccess()
     {
         TextShow.GetComponent<Text>().text = "Succ";
+        SceneManager.LoadScene("bargain");
     }
 }
